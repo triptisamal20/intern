@@ -1,0 +1,24 @@
+/home/tripti/intern/go-ethereum-master/build/bin/geth --datadir node1/ --syncmode 'full' --port 30311 --rpc --rpcaddr 'localhost' --rpcport 8501 --rpcapi 'personal,db,eth,net,web3,txpool,miner' --bootnodes 'enode://13c15717551a484a0db326bb2e616d3ee9adde8c31a7dc2c335b2433116ced465ff1a9cb27252d56bec4d081ff203fc9cf6c349174a66117c8bedabe08f36db6@127.0.0.1:30310' --networkid 1515 --gasprice '1' -unlock '0x87366ef81db496edd0ea2055ca605e8686eec1e6' --password node1/password.txt --mine
+
+enode will be same, rest should be different for both nodes
+like, --port 30312
+
+For getting bootnodes enode: 
+bootnode -nodekey boot.key -verbosity 9 -addr :30310
+
+
+For console access to run nodejs script:
+
+This gets generated only when node is started.
+../go-ethereum-master/build/bin/geth attach node1/geth.ipc
+
+
+
+
+To get private keys:
+
+npm install keythereum
+
+To create raw transaction:
+npm install ethereumjs-tx
+

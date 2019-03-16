@@ -1,0 +1,54 @@
+For the commands given below, 
+
+root directory for go-ethereum:/home/tripti/intern/go-ethereum-master/
+root directory for private network of 2 nodes: pwd/home/tripti/intern/private-network
+
+Replace root directories for your respective direcetories in the following:
+
+STARTING NODES ON PRIVATE NETWORK
+=================================
+At private-network, enter:
+
+bootnode -nodekey boot.key -verbosity 9 -addr :30310
+
+This gives the enode.
+
+At node1, enter:
+
+/home/tripti/intern/go-ethereum-master/build/bin/geth --datadir node1/ --syncmode 'full' --port 30311 --rpc --rpcaddr 'localhost' --rpcport 8501 --rpcapi 'personal,db,eth,net,web3,txpool,miner' --bootnodes 'enode://13c15717551a484a0db326bb2e616d3ee9adde8c31a7dc2c335b2433116ced465ff1a9cb27252d56bec4d081ff203fc9cf6c349174a66117c8bedabe08f36db6@127.0.0.1:30310' --networkid 1515 --gasprice '1' -unlock '0x9f7baf27a52dfa6f48367cc6e95e6aa935148277' --password node1/password.txt --mine
+
+
+At node2, enter: 
+
+/home/tripti/intern/go-ethereum-master/build/bin/geth --datadir node2/ --syncmode 'full' --port 30312 --rpc --rpcaddr 'localhost' --rpcport 8502 --rpcapi 'personal,db,eth,net,web3,txpool,miner' --bootnodes 'enode://13c15717551a484a0db326bb2e616d3ee9adde8c31a7dc2c335b2433116ced465ff1a9cb27252d56bec4d081ff203fc9cf6c349174a66117c8bedabe08f36db6@127.0.0.1:30310' --networkid 1515 --gasprice '1' -unlock '0x24b15a53901ef3b040625d0a2bc9392c618cba44' --password node2/password.txt --mine
+
+
+START CLIENT SCRIPT FOR OBSERVING SENDING OF TRANSACTION AND MINING
+===================================================================
+
+Enter the following command to trigger sending of transactions and mining:
+
+node trans.js
+
+NOTE:
+----
+1) At the console, mining procedure could be observed through logs (Some logs are added to the original Go-ethereum code to demonstrate the steps more clearly, they start with comment "Mod:")
+Entire mining procedure is also documented in the file, mining.txt
+
+2) Certain parameters like accounts, private keys are hard-coded in the code, which should be appropriately changed, when needed.
+
+TO GET THE PRIVATE KEY OF SENDING NODE
+======================================
+
+Run the following script, with appropriate account address. datadir, password.
+
+node key.js <account address> <datadir> <password>
+
+For node 1:
+node key.js 0x9f7baf27a52dfa6f48367cc6e95e6aa935148277 ./node1 pwdnode1
+
+For node 2:
+node key.js 0x24b15a53901ef3b040625d0a2bc9392c618cba44 ./node2 pwdnode2
+
+Console will print out the private keys, which should be copied in appropriate places in trans.js
+

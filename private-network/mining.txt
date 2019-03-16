@@ -1,0 +1,21 @@
+STEPS OF TRANSACTION PROCESSING AND MINING
+==========================================
+
+1) Geth client calculates a seed for each block.
+2) From the seed, a pseudorandom cache is calculated.
+3) From cache, a dataset is generated.
+4) Mining involves taking random slices of the dataset and hashing them together.
+
+
+DIFFERENT SCENARIOS EXECUTED AS PART OF THE PROJECT
+====================================================================
+
+1) When there is a gap between last valid transaction nonce and current nonce, the transaction goes into the transaction pool queue and does not get mined.
+
+In the code, nonce is incremented by two, and the two transactions are submitted. Later, transaction with nonce value in the gap is submitted.
+
+
+2) From one account maximum number of transactions permitted is 64
+
+
+

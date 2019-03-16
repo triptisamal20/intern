@@ -1,0 +1,177 @@
+INFO [03-15|18:59:10.416] Maximum peer count                       ETH=25 LES=0 total=25
+INFO [03-15|18:59:10.418] Starting peer-to-peer node               instance=Geth/v1.9.0-unstable/linux-amd64/go1.10.4
+INFO [03-15|18:59:10.418] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [03-15|18:59:10.418] Allocated cache and file handles         database=/home/tripti/intern/private-network/node1/geth/chaindata cache=512.00MiB handles=2048
+INFO [03-15|18:59:10.443] Initialised chain configuration          config="{ChainID: 1515 Homestead: 1 DAO: <nil> DAOSupport: false EIP150: 2 EIP155: 3 EIP158: 3 Byzantium: 4 Constantinople: 5  ConstantinopleFix: <nil> Engine: clique}"
+INFO [03-15|18:59:10.444] Initialising Ethereum protocol           versions="[63 62]" network=1515 dbversion=4
+INFO [03-15|18:59:10.495] Loaded most recent local header          number=1544 hash=d433e7…f4a3e8 td=3089 age=11m27s
+INFO [03-15|18:59:10.495] Loaded most recent local full block      number=1544 hash=d433e7…f4a3e8 td=3089 age=11m27s
+INFO [03-15|18:59:10.495] Loaded most recent local fast block      number=1544 hash=d433e7…f4a3e8 td=3089 age=11m27s
+INFO [03-15|18:59:10.495] Setting new local account                address=0x9F7bAf27a52Dfa6F48367CC6e95e6AA935148277
+INFO [03-15|18:59:10.499] Loaded local transaction journal         transactions=22 dropped=0
+INFO [03-15|18:59:10.500] Regenerated local transaction journal    transactions=22 accounts=1
+INFO [03-15|18:59:10.500] Mod: Submit a new mining work 
+INFO [03-15|18:59:10.500] Mod: Calling commit() 
+INFO [03-15|18:59:10.500] Mod: commit aborts in-flight transaction execution with given signal and resubmits a new one. 
+INFO [03-15|18:59:10.518] New local node record                    seq=33 id=6ad1f3ff5556b400 ip=127.0.0.1 udp=30311 tcp=30311
+INFO [03-15|18:59:10.518] Started P2P networking                   self=enode://6719cdf2da4ae36e75259c98b10093b5e8789a6de02daf132904434172557aa23e32de24e86c81aa78edb0df7f8ec0cbd6c0e2a29bff37b9dab8126b299d777c@127.0.0.1:30311
+INFO [03-15|18:59:10.520] IPC endpoint opened                      url=/home/tripti/intern/private-network/node1/geth.ipc
+INFO [03-15|18:59:10.520] HTTP endpoint opened                     url=http://localhost:8501                              cors= vhosts=localhost
+INFO [03-15|18:59:10.619] Mod: Copying receipts to avoid interation between different tasks 
+INFO [03-15|18:59:10.619] Mod: Copying current state 
+INFO [03-15|18:59:11.245] Unlocked account                         address=0x9F7bAf27a52Dfa6F48367CC6e95e6AA935148277
+INFO [03-15|18:59:11.245] Transaction pool price threshold updated price=1
+INFO [03-15|18:59:11.245] Mod: Setting Gas Price 
+INFO [03-15|18:59:11.245] Transaction pool price threshold updated price=1
+INFO [03-15|18:59:11.245] Etherbase automatically configured       address=0x9F7bAf27a52Dfa6F48367CC6e95e6AA935148277
+INFO [03-15|18:59:11.245] Mod: Finding accounts 
+INFO [03-15|18:59:11.245] Mod: Starting to mine 
+INFO [03-15|18:59:11.245] Mod: Calling commit() 
+INFO [03-15|18:59:11.245] Mod: commit aborts in-flight transaction execution with given signal and resubmits a new one. 
+INFO [03-15|18:59:11.245] Mod: Copying receipts to avoid interation between different tasks 
+INFO [03-15|18:59:11.245] Mod: Copying current state 
+INFO [03-15|18:59:11.245] Commit new mining work                   number=1545 sealhash=606cd9…3903a3 uncles=0 txs=0 gas=0 fees=0 elapsed=81.262µs
+INFO [03-15|18:59:11.246] Successfully sealed new block            number=1545 sealhash=606cd9…3903a3 hash=277860…e8607c elapsed=394.654µs
+INFO [03-15|18:59:11.246] 🔨 mined potential block                  number=1545 hash=277860…e8607c
+INFO [03-15|18:59:11.246] Mod: commit aborts in-flight transaction execution with given signal and resubmits a new one. 
+INFO [03-15|18:59:11.246] Mod: Copying receipts to avoid interation between different tasks 
+INFO [03-15|18:59:11.246] Mod: Copying current state 
+INFO [03-15|18:59:11.246] Commit new mining work                   number=1546 sealhash=4628e3…a9bd18 uncles=0 txs=0 gas=0 fees=0 elapsed=266.66µs
+INFO [03-15|18:59:11.246] Signed recently, must wait for others 
+INFO [03-15|18:59:12.786] Mapped network port                      proto=udp extport=30311 intport=30311 interface="UPNP IGDv2-IP1"
+INFO [03-15|18:59:12.844] Mapped network port                      proto=tcp extport=30311 intport=30311 interface="UPNP IGDv2-IP1"
+INFO [03-15|18:59:14.521] New local node record                    seq=34 id=6ad1f3ff5556b400 ip=107.13.173.64 udp=30311 tcp=30311
+INFO [03-15|18:59:22.060] Served eth_sendRawTransaction            conn=127.0.0.1:44484 reqid=0 t=121.262µs err="known transaction: a000384aaa38b24e6f145509b101be07699a4e59a19150cdbc19d06aaf3eb293"
+INFO [03-15|18:59:22.061] Submitted transaction                    fullhash=0xdad78cf264976ef1add02711ebf233ee484b9770e6a6547dde019e7600e5f7b7 recipient=0x24B15A53901ef3b040625d0a2bC9392C618CBa44
+INFO [03-15|18:59:22.061] Submitted transaction                    fullhash=0x8771d4627ba36c8ddf069153da39770e47f42a863b0cce44abba623bf778c89d recipient=0x24B15A53901ef3b040625d0a2bC9392C618CBa44
+INFO [03-15|18:59:24.937] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=1.031ms   mgasps=0.000 number=1546 hash=f6457b…f49c2b dirty=0.00B
+INFO [03-15|18:59:24.937] Mod: commit aborts in-flight transaction execution with given signal and resubmits a new one. 
+INFO [03-15|18:59:24.938] Mod: Copying receipts to avoid interation between different tasks 
+INFO [03-15|18:59:24.938] Mod: Copying current state 
+INFO [03-15|18:59:24.938] Commit new mining work                   number=1547 sealhash=c6c223…73cd95 uncles=0 txs=0 gas=0 fees=0 elapsed=490.079µs
+INFO [03-15|18:59:29.001] Successfully sealed new block            number=1547 sealhash=c6c223…73cd95 hash=e416d9…fb5dcb elapsed=4.063s
+INFO [03-15|18:59:29.001] 🔨 mined potential block                  number=1547 hash=e416d9…fb5dcb
+INFO [03-15|18:59:29.001] Mod: commit aborts in-flight transaction execution with given signal and resubmits a new one. 
+INFO [03-15|18:59:29.002] Mod: Copying receipts to avoid interation between different tasks 
+INFO [03-15|18:59:29.002] Mod: Copying current state 
+INFO [03-15|18:59:29.002] Commit new mining work                   number=1548 sealhash=597817…091b87 uncles=0 txs=0 gas=0 fees=0 elapsed=1.268ms
+INFO [03-15|18:59:29.003] Signed recently, must wait for others 
+INFO [03-15|18:59:34.004] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=761.75µs  mgasps=0.000 number=1548 hash=de9cbd…dbd650 dirty=0.00B
+INFO [03-15|18:59:34.004] Mod: commit aborts in-flight transaction execution with given signal and resubmits a new one. 
+INFO [03-15|18:59:34.004] Mod: Copying receipts to avoid interation between different tasks 
+INFO [03-15|18:59:34.004] Mod: Copying current state 
+INFO [03-15|18:59:34.004] Commit new mining work                   number=1549 sealhash=1c7a4a…cb09ad uncles=0 txs=0 gas=0 fees=0 elapsed=398.174µs
+INFO [03-15|18:59:39.001] Successfully sealed new block            number=1549 sealhash=1c7a4a…cb09ad hash=c0b34c…7190bd elapsed=4.996s
+INFO [03-15|18:59:39.001] 🔨 mined potential block                  number=1549 hash=c0b34c…7190bd
+INFO [03-15|18:59:39.001] Mod: commit aborts in-flight transaction execution with given signal and resubmits a new one. 
+INFO [03-15|18:59:39.002] Mod: Copying receipts to avoid interation between different tasks 
+INFO [03-15|18:59:39.002] Mod: Copying current state 
+INFO [03-15|18:59:39.002] Commit new mining work                   number=1550 sealhash=840063…7b50ba uncles=0 txs=0 gas=0 fees=0 elapsed=1.184ms
+INFO [03-15|18:59:39.002] Signed recently, must wait for others 
+INFO [03-15|18:59:44.009] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=5.794ms   mgasps=0.000 number=1550 hash=5a5bf5…bfd891 dirty=0.00B
+INFO [03-15|18:59:44.009] Mod: commit aborts in-flight transaction execution with given signal and resubmits a new one. 
+INFO [03-15|18:59:44.009] Mod: Copying receipts to avoid interation between different tasks 
+INFO [03-15|18:59:44.009] Mod: Copying current state 
+INFO [03-15|18:59:44.009] Commit new mining work                   number=1551 sealhash=0026e1…bdc227 uncles=0 txs=0 gas=0 fees=0 elapsed=443.129µs
+INFO [03-15|18:59:49.001] Successfully sealed new block            number=1551 sealhash=0026e1…bdc227 hash=71c29f…0875c9 elapsed=4.992s
+INFO [03-15|18:59:49.002] 🔨 mined potential block                  number=1551 hash=71c29f…0875c9
+INFO [03-15|18:59:49.002] Mod: commit aborts in-flight transaction execution with given signal and resubmits a new one. 
+INFO [03-15|18:59:49.003] Mod: Copying receipts to avoid interation between different tasks 
+INFO [03-15|18:59:49.004] Mod: Copying current state 
+INFO [03-15|18:59:49.004] Commit new mining work                   number=1552 sealhash=1ff360…c89cfa uncles=0 txs=0 gas=0 fees=0 elapsed=1.859ms
+INFO [03-15|18:59:49.004] Signed recently, must wait for others 
+INFO [03-15|18:59:54.011] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=8.245ms   mgasps=0.000 number=1552 hash=9f6bb8…3b7faa dirty=0.00B
+INFO [03-15|18:59:54.011] Mod: commit aborts in-flight transaction execution with given signal and resubmits a new one. 
+INFO [03-15|18:59:54.011] Mod: Copying receipts to avoid interation between different tasks 
+INFO [03-15|18:59:54.011] Mod: Copying current state 
+INFO [03-15|18:59:54.011] 🔗 block reached canonical chain          number=1545 hash=277860…e8607c
+INFO [03-15|18:59:54.011] Commit new mining work                   number=1553 sealhash=2294ec…fc4e0b uncles=0 txs=0 gas=0 fees=0 elapsed=571.522µs
+INFO [03-15|18:59:59.001] Successfully sealed new block            number=1553 sealhash=2294ec…fc4e0b hash=10e043…ab8994 elapsed=4.990s
+INFO [03-15|18:59:59.002] 🔨 mined potential block                  number=1553 hash=10e043…ab8994
+INFO [03-15|18:59:59.002] Mod: commit aborts in-flight transaction execution with given signal and resubmits a new one. 
+INFO [03-15|18:59:59.003] Mod: Copying receipts to avoid interation between different tasks 
+INFO [03-15|18:59:59.003] Mod: Copying current state 
+INFO [03-15|18:59:59.003] Commit new mining work                   number=1554 sealhash=2de1e9…5217db uncles=0 txs=0 gas=0 fees=0 elapsed=1.168ms
+INFO [03-15|18:59:59.003] Signed recently, must wait for others 
+INFO [03-15|19:00:04.011] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=677.088µs mgasps=0.000 number=1554 hash=81fe86…57e57a dirty=0.00B
+INFO [03-15|19:00:04.011] Mod: commit aborts in-flight transaction execution with given signal and resubmits a new one. 
+INFO [03-15|19:00:04.012] Mod: Copying receipts to avoid interation between different tasks 
+INFO [03-15|19:00:04.012] Mod: Copying current state 
+INFO [03-15|19:00:04.012] 🔗 block reached canonical chain          number=1547 hash=e416d9…fb5dcb
+INFO [03-15|19:00:04.012] Commit new mining work                   number=1555 sealhash=3b3c22…7d238f uncles=0 txs=0 gas=0 fees=0 elapsed=480.085µs
+INFO [03-15|19:00:09.001] Successfully sealed new block            number=1555 sealhash=3b3c22…7d238f hash=c9a02d…30cacf elapsed=4.989s
+INFO [03-15|19:00:09.001] 🔨 mined potential block                  number=1555 hash=c9a02d…30cacf
+INFO [03-15|19:00:09.001] Mod: commit aborts in-flight transaction execution with given signal and resubmits a new one. 
+INFO [03-15|19:00:09.003] Mod: Copying receipts to avoid interation between different tasks 
+INFO [03-15|19:00:09.003] Mod: Copying current state 
+INFO [03-15|19:00:09.003] Commit new mining work                   number=1556 sealhash=4a3c05…92752b uncles=0 txs=0 gas=0 fees=0 elapsed=1.402ms
+INFO [03-15|19:00:09.003] Signed recently, must wait for others 
+INFO [03-15|19:00:14.009] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=4.983ms   mgasps=0.000 number=1556 hash=ba0d9a…028e62 dirty=0.00B
+INFO [03-15|19:00:14.009] Mod: commit aborts in-flight transaction execution with given signal and resubmits a new one. 
+INFO [03-15|19:00:14.010] Mod: Copying receipts to avoid interation between different tasks 
+INFO [03-15|19:00:14.010] Mod: Copying current state 
+INFO [03-15|19:00:14.010] 🔗 block reached canonical chain          number=1549 hash=c0b34c…7190bd
+INFO [03-15|19:00:14.010] Commit new mining work                   number=1557 sealhash=04efa9…82b33e uncles=0 txs=0 gas=0 fees=0 elapsed=591.417µs
+INFO [03-15|19:00:14.932] Submitted transaction                    fullhash=0x719605145280bb7fbfaac34ce0dfbd66a81d8bee2e7cec3268ecd353c8d0c1f6 recipient=0x24B15A53901ef3b040625d0a2bC9392C618CBa44
+INFO [03-15|19:00:14.933] Submitted transaction                    fullhash=0x7e4b5752d5364cd530563c452b6a8c9de862851574756b50c81c4dd373bdcafe recipient=0x24B15A53901ef3b040625d0a2bC9392C618CBa44
+INFO [03-15|19:00:14.933] Submitted transaction                    fullhash=0x7f9977f59c62b3aa4dd9a0daf025b284f8835dbbf6663eb2cc1760893a17eb87 recipient=0x24B15A53901ef3b040625d0a2bC9392C618CBa44
+INFO [03-15|19:00:19.001] Successfully sealed new block            number=1557 sealhash=04efa9…82b33e hash=44dd42…fd7d3f elapsed=4.991s
+INFO [03-15|19:00:19.001] 🔨 mined potential block                  number=1557 hash=44dd42…fd7d3f
+INFO [03-15|19:00:19.001] Mod: commit aborts in-flight transaction execution with given signal and resubmits a new one. 
+INFO [03-15|19:00:19.002] Mod: Copying receipts to avoid interation between different tasks 
+INFO [03-15|19:00:19.003] Mod: Copying current state 
+INFO [03-15|19:00:19.003] Commit new mining work                   number=1558 sealhash=1c3373…834876 uncles=0 txs=0 gas=0 fees=0 elapsed=1.246ms
+INFO [03-15|19:00:19.003] Signed recently, must wait for others 
+INFO [03-15|19:00:24.009] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=5.413ms   mgasps=0.000 number=1558 hash=f62909…3dc90f dirty=0.00B
+INFO [03-15|19:00:24.009] Mod: commit aborts in-flight transaction execution with given signal and resubmits a new one. 
+INFO [03-15|19:00:24.010] Mod: Copying receipts to avoid interation between different tasks 
+INFO [03-15|19:00:24.010] Mod: Copying current state 
+INFO [03-15|19:00:24.010] 🔗 block reached canonical chain          number=1551 hash=71c29f…0875c9
+INFO [03-15|19:00:24.010] Commit new mining work                   number=1559 sealhash=aa1295…58dbea uncles=0 txs=0 gas=0 fees=0 elapsed=481.374µs
+INFO [03-15|19:00:29.001] Successfully sealed new block            number=1559 sealhash=aa1295…58dbea hash=1f23b5…500e3b elapsed=4.991s
+INFO [03-15|19:00:29.001] 🔨 mined potential block                  number=1559 hash=1f23b5…500e3b
+INFO [03-15|19:00:29.001] Mod: commit aborts in-flight transaction execution with given signal and resubmits a new one. 
+INFO [03-15|19:00:29.003] Mod: Copying receipts to avoid interation between different tasks 
+INFO [03-15|19:00:29.003] Mod: Copying current state 
+INFO [03-15|19:00:29.003] Commit new mining work                   number=1560 sealhash=dbe1f8…0a7a34 uncles=0 txs=0 gas=0 fees=0 elapsed=1.368ms
+INFO [03-15|19:00:29.003] Signed recently, must wait for others 
+INFO [03-15|19:00:34.008] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=7.004ms   mgasps=0.000 number=1560 hash=5babe0…b84785 dirty=0.00B
+INFO [03-15|19:00:34.008] Mod: commit aborts in-flight transaction execution with given signal and resubmits a new one. 
+INFO [03-15|19:00:34.008] Mod: Copying receipts to avoid interation between different tasks 
+INFO [03-15|19:00:34.009] Mod: Copying current state 
+INFO [03-15|19:00:34.009] 🔗 block reached canonical chain          number=1553 hash=10e043…ab8994
+INFO [03-15|19:00:34.009] Commit new mining work                   number=1561 sealhash=1da7e7…cf9c37 uncles=0 txs=0 gas=0 fees=0 elapsed=232.896µs
+INFO [03-15|19:00:39.001] Successfully sealed new block            number=1561 sealhash=1da7e7…cf9c37 hash=428d77…c0e08e elapsed=4.992s
+INFO [03-15|19:00:39.001] 🔨 mined potential block                  number=1561 hash=428d77…c0e08e
+INFO [03-15|19:00:39.001] Mod: commit aborts in-flight transaction execution with given signal and resubmits a new one. 
+INFO [03-15|19:00:39.002] Mod: Copying receipts to avoid interation between different tasks 
+INFO [03-15|19:00:39.002] Mod: Copying current state 
+INFO [03-15|19:00:39.003] Commit new mining work                   number=1562 sealhash=4528c7…1114f5 uncles=0 txs=0 gas=0 fees=0 elapsed=1.306ms
+INFO [03-15|19:00:39.003] Signed recently, must wait for others 
+INFO [03-15|19:00:44.004] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=822.819µs mgasps=0.000 number=1562 hash=a1058a…54d166 dirty=0.00B
+INFO [03-15|19:00:44.004] Mod: commit aborts in-flight transaction execution with given signal and resubmits a new one. 
+INFO [03-15|19:00:44.005] Mod: Copying receipts to avoid interation between different tasks 
+INFO [03-15|19:00:44.005] Mod: Copying current state 
+INFO [03-15|19:00:44.005] 🔗 block reached canonical chain          number=1555 hash=c9a02d…30cacf
+INFO [03-15|19:00:44.005] Commit new mining work                   number=1563 sealhash=22e237…0df07f uncles=0 txs=0 gas=0 fees=0 elapsed=609.639µs
+^[[A^[[A^[[A^[[BINFO [03-15|19:00:49.001] Successfully sealed new block            number=1563 sealhash=22e237…0df07f hash=cac16b…9ec544 elapsed=4.996s
+INFO [03-15|19:00:49.002] 🔨 mined potential block                  number=1563 hash=cac16b…9ec544
+INFO [03-15|19:00:49.002] Mod: commit aborts in-flight transaction execution with given signal and resubmits a new one. 
+INFO [03-15|19:00:49.003] Mod: Copying receipts to avoid interation between different tasks 
+INFO [03-15|19:00:49.003] Mod: Copying current state 
+INFO [03-15|19:00:49.003] Commit new mining work                   number=1564 sealhash=ce3dae…70974a uncles=0 txs=0 gas=0 fees=0 elapsed=1.193ms
+INFO [03-15|19:00:49.003] Signed recently, must wait for others 
+^[[B^CINFO [03-15|19:00:51.927] Got interrupt, shutting down... 
+INFO [03-15|19:00:51.928] HTTP endpoint closed                     url=http://localhost:8501
+INFO [03-15|19:00:51.928] IPC endpoint closed                      url=/home/tripti/intern/private-network/node1/geth.ipc
+INFO [03-15|19:00:51.928] Writing cached state to disk             block=1563 hash=cac16b…9ec544 root=04beb2…af90f7
+INFO [03-15|19:00:51.928] Persisted trie from memory database      nodes=0 size=0.00B time=17.819µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [03-15|19:00:51.928] Writing cached state to disk             block=1562 hash=a1058a…54d166 root=04beb2…af90f7
+INFO [03-15|19:00:51.928] Persisted trie from memory database      nodes=0 size=0.00B time=3.516µs  gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [03-15|19:00:51.929] Writing cached state to disk             block=1436 hash=ecb788…4c6606 root=04beb2…af90f7
+INFO [03-15|19:00:51.929] Persisted trie from memory database      nodes=0 size=0.00B time=3.374µs  gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [03-15|19:00:51.929] Blockchain manager stopped 
+INFO [03-15|19:00:51.929] Stopping Ethereum protocol 
+INFO [03-15|19:00:51.929] Ethereum protocol stopped 
+INFO [03-15|19:00:51.929] Transaction pool stopped 
+

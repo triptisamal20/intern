@@ -1,0 +1,104 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'node',
+1 verbose cli   'test.js',
+1 verbose cli   '--url=https://github.com/kaleido-io/kaleido-js/blob/master/deploy-transact/simplestorage.sol',
+1 verbose cli   '--verbose',
+1 verbose cli   '--deploy' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData node
+8 silly fetchPackageMetaData test.js
+9 silly fetchNamedPackageData node
+10 silly mapToRegistry name node
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry uri https://registry.npmjs.org/node
+14 silly fetchOtherPackageData test.js
+15 silly cache add args [ 'test.js', null ]
+16 verbose cache add spec test.js
+17 silly cache add parsed spec Result {
+17 silly cache add   raw: 'test.js',
+17 silly cache add   scope: null,
+17 silly cache add   name: null,
+17 silly cache add   rawSpec: 'test.js',
+17 silly cache add   spec: '/home/tripti/intern/kaleido-js-master/deploy-transact/test.js',
+17 silly cache add   type: 'local' }
+18 silly addLocalTarball shasum (computed) f697fa0cd931b421ed994667685b5cb04aef8ede
+19 verbose addTmpTarball /home/tripti/intern/kaleido-js-master/deploy-transact/test.js not in flight; adding
+20 verbose request uri https://registry.npmjs.org/node
+21 verbose request no auth needed
+22 info attempt registry request try #1 at 1:46:40 PM
+23 verbose request id 224b5bc46b9c9750
+24 verbose etag W/"60f90c5a58741df8460f3a17464da368"
+25 verbose lastModified Thu, 07 Mar 2019 04:05:36 GMT
+26 http request GET https://registry.npmjs.org/node
+27 verbose addTmpTarball validating metadata from /home/tripti/intern/kaleido-js-master/deploy-transact/test.js
+28 verbose tar unpack /home/tripti/intern/kaleido-js-master/deploy-transact/test.js
+29 verbose tar unpacking to /tmp/npm-24719-fdd2bec5/unpack-cd3063d4
+30 silly gentlyRm /tmp/npm-24719-fdd2bec5/unpack-cd3063d4 is being purged
+31 verbose gentlyRm don't care about contents; nuking /tmp/npm-24719-fdd2bec5/unpack-cd3063d4
+32 silly gunzTarPerm modes [ '755', '644' ]
+33 error not a package /home/tripti/intern/kaleido-js-master/deploy-transact/test.js
+34 error addLocal Could not install /home/tripti/intern/kaleido-js-master/deploy-transact/test.js
+35 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/tmp/npm-24719-fdd2bec5/unpack-cd3063d4/package.json'
+35 silly fetchPackageMetaData  error for test.js { Error: ENOENT: no such file or directory, open '/tmp/npm-24719-fdd2bec5/unpack-cd3063d4/package.json'
+35 silly fetchPackageMetaData   errno: -2,
+35 silly fetchPackageMetaData   code: 'ENOENT',
+35 silly fetchPackageMetaData   syscall: 'open',
+35 silly fetchPackageMetaData   path: '/tmp/npm-24719-fdd2bec5/unpack-cd3063d4/package.json' }
+36 http 304 https://registry.npmjs.org/node
+37 verbose headers { date: 'Mon, 11 Mar 2019 17:46:41 GMT',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'set-cookie':
+37 verbose headers    [ '__cfduid=dd9e0acee64fa22eafb14fc7f7ada75dd1552326401; expires=Tue, 10-Mar-20 17:46:41 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+37 verbose headers   'cf-cache-status': 'HIT',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'cf-ray': '4b5f5966ef56c186-IAD',
+37 verbose headers   etag: '"60f90c5a58741df8460f3a17464da368"',
+37 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+37 verbose headers   'last-modified': 'Thu, 07 Mar 2019 04:05:36 GMT',
+37 verbose headers   vary: 'accept-encoding, accept',
+37 verbose headers   'x-amz-meta-rev': '467-ddb5101e648337d0c5b3df14bc51206c',
+37 verbose headers   server: 'cloudflare' }
+38 silly get cb [ 304,
+38 silly get   { date: 'Mon, 11 Mar 2019 17:46:41 GMT',
+38 silly get     connection: 'keep-alive',
+38 silly get     'set-cookie':
+38 silly get      [ '__cfduid=dd9e0acee64fa22eafb14fc7f7ada75dd1552326401; expires=Tue, 10-Mar-20 17:46:41 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+38 silly get     'cf-cache-status': 'HIT',
+38 silly get     'cache-control': 'max-age=300',
+38 silly get     'cf-ray': '4b5f5966ef56c186-IAD',
+38 silly get     etag: '"60f90c5a58741df8460f3a17464da368"',
+38 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+38 silly get     'last-modified': 'Thu, 07 Mar 2019 04:05:36 GMT',
+38 silly get     vary: 'accept-encoding, accept',
+38 silly get     'x-amz-meta-rev': '467-ddb5101e648337d0c5b3df14bc51206c',
+38 silly get     server: 'cloudflare' } ]
+39 verbose etag https://registry.npmjs.org/node from cache
+40 verbose get saving node to /home/tripti/.npm/registry.npmjs.org/node/.cache.json
+41 silly rollbackFailedOptional Starting
+42 silly rollbackFailedOptional Finishing
+43 silly runTopLevelLifecycles Starting
+44 silly runTopLevelLifecycles Finishing
+45 silly install printInstalled
+46 verbose stack Error: ENOENT: no such file or directory, open '/tmp/npm-24719-fdd2bec5/unpack-cd3063d4/package.json'
+47 verbose cwd /home/tripti/intern/kaleido-js-master/deploy-transact
+48 error Linux 4.15.0-45-generic
+49 error argv "/usr/bin/node" "/usr/bin/npm" "install" "node" "test.js" "--url=https://github.com/kaleido-io/kaleido-js/blob/master/deploy-transact/simplestorage.sol" "--verbose" "--deploy"
+50 error node v8.10.0
+51 error npm  v3.5.2
+52 error path /tmp/npm-24719-fdd2bec5/unpack-cd3063d4/package.json
+53 error code ENOENT
+54 error errno -2
+55 error syscall open
+56 error enoent ENOENT: no such file or directory, open '/tmp/npm-24719-fdd2bec5/unpack-cd3063d4/package.json'
+57 error enoent ENOENT: no such file or directory, open '/tmp/npm-24719-fdd2bec5/unpack-cd3063d4/package.json'
+57 error enoent This is most likely not a problem with npm itself
+57 error enoent and is related to npm not being able to find a file.
+58 verbose exit [ -2, true ]

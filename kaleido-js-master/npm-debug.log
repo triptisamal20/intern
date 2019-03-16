@@ -1,0 +1,155 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'node',
+1 verbose cli   'test.js',
+1 verbose cli   'deploy-transact/simplestorage.sol',
+1 verbose cli   '--verbose',
+1 verbose cli   '--deploy' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData node
+8 silly fetchPackageMetaData test.js
+9 silly fetchPackageMetaData deploy-transact/simplestorage.sol
+10 silly fetchNamedPackageData node
+11 silly mapToRegistry name node
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/node
+15 silly fetchNamedPackageData test.js
+16 silly mapToRegistry name test.js
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/test.js
+20 silly fetchOtherPackageData deploy-transact/simplestorage.sol
+21 silly cache add args [ 'deploy-transact/simplestorage.sol', null ]
+22 verbose cache add spec deploy-transact/simplestorage.sol
+23 verbose request uri https://registry.npmjs.org/test.js
+24 verbose request no auth needed
+25 info attempt registry request try #1 at 5:20:06 PM
+26 verbose request id d7d5736d12fc0d71
+27 http request GET https://registry.npmjs.org/test.js
+28 silly cache add parsed spec Result {
+28 silly cache add   raw: 'deploy-transact/simplestorage.sol',
+28 silly cache add   scope: null,
+28 silly cache add   name: null,
+28 silly cache add   rawSpec: 'deploy-transact/simplestorage.sol',
+28 silly cache add   spec: '/home/tripti/intern/kaleido-js-master/deploy-transact/simplestorage.sol',
+28 silly cache add   type: 'local',
+28 silly cache add   hosted:
+28 silly cache add    { type: 'github',
+28 silly cache add      ssh: 'git@github.com:deploy-transact/simplestorage.sol.git',
+28 silly cache add      sshUrl: 'git+ssh://git@github.com/deploy-transact/simplestorage.sol.git',
+28 silly cache add      httpsUrl: 'git+https://github.com/deploy-transact/simplestorage.sol.git',
+28 silly cache add      gitUrl: 'git://github.com/deploy-transact/simplestorage.sol.git',
+28 silly cache add      shortcut: 'github:deploy-transact/simplestorage.sol',
+28 silly cache add      directUrl: 'https://raw.githubusercontent.com/deploy-transact/simplestorage.sol/master/package.json' } }
+29 silly addLocalTarball shasum (computed) b8707ef77b3a5a84fd23adc297c7ef34619c1d9c
+30 verbose addTmpTarball /home/tripti/intern/kaleido-js-master/deploy-transact/simplestorage.sol not in flight; adding
+31 verbose request uri https://registry.npmjs.org/node
+32 verbose request no auth needed
+33 info attempt registry request try #1 at 5:20:06 PM
+34 verbose etag W/"60f90c5a58741df8460f3a17464da368"
+35 verbose lastModified Thu, 07 Mar 2019 04:05:36 GMT
+36 http request GET https://registry.npmjs.org/node
+37 verbose addTmpTarball validating metadata from /home/tripti/intern/kaleido-js-master/deploy-transact/simplestorage.sol
+38 verbose tar unpack /home/tripti/intern/kaleido-js-master/deploy-transact/simplestorage.sol
+39 verbose tar unpacking to /tmp/npm-4005-f7a70f5f/unpack-40101424
+40 silly gentlyRm /tmp/npm-4005-f7a70f5f/unpack-40101424 is being purged
+41 verbose gentlyRm don't care about contents; nuking /tmp/npm-4005-f7a70f5f/unpack-40101424
+42 silly gunzTarPerm modes [ '755', '644' ]
+43 error not a package /home/tripti/intern/kaleido-js-master/deploy-transact/simplestorage.sol
+44 error addLocal Could not install /home/tripti/intern/kaleido-js-master/deploy-transact/simplestorage.sol
+45 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/tmp/npm-4005-f7a70f5f/unpack-40101424/package.json'
+45 silly fetchPackageMetaData  error for deploy-transact/simplestorage.sol { Error: ENOENT: no such file or directory, open '/tmp/npm-4005-f7a70f5f/unpack-40101424/package.json'
+45 silly fetchPackageMetaData   errno: -2,
+45 silly fetchPackageMetaData   code: 'ENOENT',
+45 silly fetchPackageMetaData   syscall: 'open',
+45 silly fetchPackageMetaData   path: '/tmp/npm-4005-f7a70f5f/unpack-40101424/package.json' }
+46 http 304 https://registry.npmjs.org/node
+47 verbose headers { date: 'Mon, 11 Mar 2019 21:20:08 GMT',
+47 verbose headers   connection: 'keep-alive',
+47 verbose headers   'set-cookie':
+47 verbose headers    [ '__cfduid=d4c46ab213f390b602ec85b63233b386c1552339208; expires=Tue, 10-Mar-20 21:20:08 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+47 verbose headers   'cf-cache-status': 'HIT',
+47 verbose headers   'cache-control': 'max-age=300',
+47 verbose headers   'cf-ray': '4b6092136da8cf16-IAD',
+47 verbose headers   etag: '"60f90c5a58741df8460f3a17464da368"',
+47 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+47 verbose headers   'last-modified': 'Thu, 07 Mar 2019 04:05:36 GMT',
+47 verbose headers   vary: 'accept-encoding, accept',
+47 verbose headers   'x-amz-meta-rev': '467-ddb5101e648337d0c5b3df14bc51206c',
+47 verbose headers   server: 'cloudflare' }
+48 silly get cb [ 304,
+48 silly get   { date: 'Mon, 11 Mar 2019 21:20:08 GMT',
+48 silly get     connection: 'keep-alive',
+48 silly get     'set-cookie':
+48 silly get      [ '__cfduid=d4c46ab213f390b602ec85b63233b386c1552339208; expires=Tue, 10-Mar-20 21:20:08 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+48 silly get     'cf-cache-status': 'HIT',
+48 silly get     'cache-control': 'max-age=300',
+48 silly get     'cf-ray': '4b6092136da8cf16-IAD',
+48 silly get     etag: '"60f90c5a58741df8460f3a17464da368"',
+48 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+48 silly get     'last-modified': 'Thu, 07 Mar 2019 04:05:36 GMT',
+48 silly get     vary: 'accept-encoding, accept',
+48 silly get     'x-amz-meta-rev': '467-ddb5101e648337d0c5b3df14bc51206c',
+48 silly get     server: 'cloudflare' } ]
+49 verbose etag https://registry.npmjs.org/node from cache
+50 verbose get saving node to /home/tripti/.npm/registry.npmjs.org/node/.cache.json
+51 http 200 https://registry.npmjs.org/test.js
+52 verbose headers { date: 'Mon, 11 Mar 2019 21:20:08 GMT',
+52 verbose headers   'content-type': 'application/json; charset=UTF-8',
+52 verbose headers   'transfer-encoding': 'chunked',
+52 verbose headers   connection: 'keep-alive',
+52 verbose headers   'set-cookie':
+52 verbose headers    [ '__cfduid=dafb16dab060f960e6ef2e547ae065e581552339208; expires=Tue, 10-Mar-20 21:20:08 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+52 verbose headers   'cf-cache-status': 'REVALIDATED',
+52 verbose headers   'cache-control': 'max-age=300',
+52 verbose headers   'cf-ray': '4b6092136a3bcf2a-IAD',
+52 verbose headers   etag: 'W/"c6527723c9eae354d59210967d6c12b0"',
+52 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+52 verbose headers   'last-modified': 'Sun, 27 May 2018 19:12:55 GMT',
+52 verbose headers   vary: 'accept-encoding, accept',
+52 verbose headers   server: 'cloudflare',
+52 verbose headers   'content-encoding': 'gzip' }
+53 silly get cb [ 200,
+53 silly get   { date: 'Mon, 11 Mar 2019 21:20:08 GMT',
+53 silly get     'content-type': 'application/json; charset=UTF-8',
+53 silly get     'transfer-encoding': 'chunked',
+53 silly get     connection: 'keep-alive',
+53 silly get     'set-cookie':
+53 silly get      [ '__cfduid=dafb16dab060f960e6ef2e547ae065e581552339208; expires=Tue, 10-Mar-20 21:20:08 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+53 silly get     'cf-cache-status': 'REVALIDATED',
+53 silly get     'cache-control': 'max-age=300',
+53 silly get     'cf-ray': '4b6092136a3bcf2a-IAD',
+53 silly get     etag: 'W/"c6527723c9eae354d59210967d6c12b0"',
+53 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+53 silly get     'last-modified': 'Sun, 27 May 2018 19:12:55 GMT',
+53 silly get     vary: 'accept-encoding, accept',
+53 silly get     server: 'cloudflare',
+53 silly get     'content-encoding': 'gzip' } ]
+54 verbose get saving test.js to /home/tripti/.npm/registry.npmjs.org/test.js/.cache.json
+55 silly rollbackFailedOptional Starting
+56 silly rollbackFailedOptional Finishing
+57 silly runTopLevelLifecycles Starting
+58 silly runTopLevelLifecycles Finishing
+59 silly install printInstalled
+60 verbose stack Error: ENOENT: no such file or directory, open '/tmp/npm-4005-f7a70f5f/unpack-40101424/package.json'
+61 verbose cwd /home/tripti/intern/kaleido-js-master
+62 error Linux 4.15.0-45-generic
+63 error argv "/usr/bin/node" "/usr/bin/npm" "install" "node" "test.js" "deploy-transact/simplestorage.sol" "--verbose" "--deploy"
+64 error node v8.10.0
+65 error npm  v3.5.2
+66 error path /tmp/npm-4005-f7a70f5f/unpack-40101424/package.json
+67 error code ENOENT
+68 error errno -2
+69 error syscall open
+70 error enoent ENOENT: no such file or directory, open '/tmp/npm-4005-f7a70f5f/unpack-40101424/package.json'
+71 error enoent ENOENT: no such file or directory, open '/tmp/npm-4005-f7a70f5f/unpack-40101424/package.json'
+71 error enoent This is most likely not a problem with npm itself
+71 error enoent and is related to npm not being able to find a file.
+72 verbose exit [ -2, true ]
